@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+// setting
+@import "setting/fonts";
+@import "setting/base";
+@import "setting/mixins";
+
+// common
+// @import "common/common";
+
+// layout
+@import "layout/header";
+@import "layout/section1";
+@import "layout/section2";
+// @import "layout/footer";
