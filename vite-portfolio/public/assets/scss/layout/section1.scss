@@ -1,0 +1,96 @@
+#main {
+  width: 100%;
+  height: 100vh;
+  // overflow: hidden;
+} 
+#section1 {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/bg02.jpg);
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    z-index: -2;
+    font-family: "PP Hatton";
+
+    &::before {
+          content: '';
+          position: absolute;
+          width: 35px;
+          height: 35px;
+          bottom: 6%;
+          right: 50%;
+          background-image: url(../img/point.png);
+          background-repeat: no-repeat;
+        }
+    .story{
+      font-family: 'IropkeBatang';
+      color: #fff;
+      text-align: center;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .story > div {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 3vw;
+      white-space: nowrap;
+    }
+  }
+  
+  #canvas {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 1;
+  }
+  
+  .title {
+    position: relative;
+    z-index: 1000;
+    display: flex;
+    gap: 5vw;
+  
+    > div {
+      width: 20vw;
+      height: 60vh;
+      border-radius: 300px;
+      background-color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-position: center center;
+      color: #fff;
+  
+      &:nth-child(1) {
+        background-image: url(../img/me01.jpg);
+        background-position: 40% 40%;
+      }
+  
+      &:nth-child(2) {
+        background-image: url(../img/me02.jpg);
+        background-position: 45% 50%;      
+      }
+  
+      &:nth-child(3) {
+        background-image: url(../img/me03.jpg);
+        background-position: 70% 50%;
+      }
+  
+      h2 {
+        font-size: 2.6vw;
+        text-align: center;
+        line-height: 1.4;
+      }
+    }
+  }

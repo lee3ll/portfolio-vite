@@ -4,13 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>포트폴리오</title>
-
-    
-    <script type="module" crossorigin src="/assets/index-da18f75b.js"></script>
-    <link rel="stylesheet" href="/assets/index-007927ef.css">
+    <script type="module" crossorigin src="/assets/index-0806efae.js"></script>
+    <link rel="stylesheet" href="/assets/index-f85d5cd0.css">
   </head>
   <body>
     <header id="header">
+        
         <h1>
             <span>PORT</span>
             <span>FOLIO</span>
@@ -24,17 +23,25 @@
             </ul>
         </div>
     </header>
-
+    
     <main id="main">
-        <section id="section1">  
+        <a href="#section2" class="skip"> skip</a>
+
+        <section id="section1">
+            <div class="story">
+                <div class="text t1">코딩이란?</div>
+                <div class="text t2">프로그래밍 코드를 어딘가에<br>적는 것을 말한다</div>
+                <div class="text t3">그래서 나도<br>적기 시작했다.</div>
+                
+            </div>  
             <div class="title">
-                <div>
+                <div class="p1">
                     <h2>Tenacious<br>and<br> Live</h2>
                 </div>
-                <div>
+                <div class="p2">
                     <h2>Deliberate <br>and<br> Conscius</h2>
                 </div>
-                <div>
+                <div class="p3">
                     <h2>Love <br>and<br> Passionate</h2>
                 </div>
             </div>            
@@ -42,20 +49,293 @@
         </section>
         <!-- section1 -->
         
-        <div id="section2"></div>
+        <div id="section2">
+            <h1>About <em>Me<em></h1>
+            <div id="intro">
+                <div class="desc desc1">
+                    <p>
+                        '배움은 끝이 없다!' 하고자 하는 일에 있어서는 끊임없이 도전하고 직접 부딪혀보며 <span class="highlight">경험으로 성장</span>하는 이은지입니다.<br> 일본어문학과를 전공으로 공부하였고, 다양한 분야의 업무를 하며 가슴 뛰는 일을 찾고자 노력했습니다. 그 과정에서<span class="highlight">ui/ux웹퍼블리셔</span>라는 직업을 접하게 되었고 그렇게 국비지원학원에서 6개월의 여정을 시작했습니다.
+                    </p>
+                </div>
+                <div class="me"></div>
+                <div class="desc desc2">
+                    <p>
+                        수업을통해 Javascript, Jquery, PHP, React 등 공부하여 기량을 향상시켰습니다. 아직 많이 부족하지만 <span class="highlight">꾸준한 자기계발</span>을 통해 발전해 나가고 남들보다 한 발 앞서 나가기 위해, 더 없이 성장하기 위해 끊임없이 노력하는 웹퍼블리셔가 되겠습니다. 감사합니다.
+                    </p>
+                </div>                
+            </div>
+            <div class="desc desc3">
+                <h1>
+                    <em>Deliberate</em> and Conscius<br>Love and <em>Passionate</em>
+                </h1>
+            </div>
+        </div>
         <!-- section2 -->
-        <div id="section3"></div>
-        <!-- section3 -->
-        <div id="section4"></div>
-        <!-- section3 -->
-        <div id="section5"></div>
-        <!-- section3 -->
-        <div id="section6"></div>
-        <!-- section3 -->
+
+        <div id="section3">
+            <h2>site <em>coding</em></h2>
+            <div class="desc">
+                웹 표준이란 브라우저 종류 및 버전에 따른 기능 차이에 대하여 호환이 가능하도록 제시된 표준으로,<br> 다른 기종 혹은 플랫폼에 따라 달리 구현되는 기술을 동일하게 구현함과 동시에 어느 한쪽에 최적화되어 치우치지 않도록 공통요소를 사용하여<br> 웹 페이지를 제작하는 기법을 의미합니다.<br>
+                표준화 단체인 W3C(World Wide Consortium)가 권고한 표준안에 따라 웹사이트를 작성할 때 이용하는 HTML, CSS, JavaScript 등에 대한<br> 규정을 담고 있으며 웹 표준의 궁극적인 목적은 웹사이트에 접속한 사용자가 어떠한 운영체제나 브라우저를 사용하더라도 동일한 결과를 보이게 하는 것입니다. 
+            </div>
+            <div class="site-wrap">
+                <div class="site1">
+                    <div class="left">
+                        <h3>Webstandard</h3>
+                        <p>오사카 관광지와 먹거리를 소개하는 컨셉으로 만든 웹표준 사이트 입니다. 사이트는 슬라이드 유형, 배너유형, 이미지유형, 이미지 텍스트 유형, 카드유형, 텍스트유형으로 이루어져있으며 미디어쿼리를 활용한 반응형 작업도 완료했습니다.<p>
+                        <div class="btn">
+                            <a href="https://github.com/lee3ll/web2023/blob/main/site/site1/index.html" target="_blank  ">code</a>
+                            <a href="https://lee3ll.github.io/web2023/site/site1/index.html">view</a>
+                        </div>
+                    </div>
+                    <div class="right"></div>
+                </div>
+                <div class="site2">
+                    <div class="left">
+                        <h3>PHP Blog Site</h3>
+                        <p>php와 MySQL을 사용하여 제작한 blog형식의 사이트 입니다. 유효성검사를 거친 회원가입과 로그인, 게시판, 게시판 글작성 및 수정, 블로그등의 기능을 구현하였습니다.</p>
+                        <div class="btn">
+                            <a href="#">code</a>
+                            <a href="#">view</a>
+                        </div>
+                    </div>
+                    <div class="right"></div>
+                </div>
+                <div class="site3">
+                    <div class="left">
+                        <h3>Team Project</h3>
+                        <p>4인으로 팀을 이루어 php를 활용한 사이트를 만들었습니다. 화장품 유통기한을 알려주어 사용자들의 아름다움을 지켜준다는 컨셉으로 사이트명은 ABB(abide by beauty)로 창작하였습니다.</p>
+                        <div class="btn">
+                            <a href="https://github.com/lee3ll/web2023-PHP/tree/master/php2">code</a>
+                            <a href="http://lee3ll.dothome.co.kr/php2/html/main.html">view</a>
+                        </div>
+                    </div>
+                    <div class="right"></div>
+                </div>
+                <div class="site4">
+                    <div class="left">
+                        <h3>React Site</h3>
+                        <p>리액트 활용하여 제작한 사이트입니다. 리액트문법과 컴포넌트방식을 배우고 영화사 스튜디오 지브리에관한 소개 및 작품추천 등의 컨셉으로 메인페이지를 만들었고 이미지와 유튜브, 무비 페이지에는 API를 사용해 데이터를 불러와 구현하였습니다.</p>
+                        <div class="btn">
+                            <a href="https://github.com/lee3ll/site2023-react01">code</a>
+                            <a href="https://site2023-react.netlify.app/">view</a>
+                        </div>
+                    </div>
+                    <div class="right"></div>
+                </div>
+                <div class="site5">
+                    <div class="left">
+                        <h3>Vue.js Site</h3>
+                        <p>리액트활용 사이트와 동일한 컨셉을 vue.js을 활용하여 구현하였습니다. Vue.js는 사용자 인터페이스를 구축하기 위한 진보적인 프론트엔드 JavaScript 프레임워크입니다. Vue.js는 화면의 일부를 업데이트하기 위해 사용자 인터페이스를 구성하는 컴포넌트 기반 아키텍처를 기반으로 합니다.</p>
+                        <div class="btn">
+                            <a href="https://github.com/lee3ll/site2023-vue01">code</a>
+                            <a href="https://silversite-vue01.netlify.app/">view</a>
+                        </div>
+                    </div>
+                    <div class="right"></div>
+                </div>
+                <div class="site6">
+                    <div class="left">
+                        <h3>Next.js Site</h3>
+                        <p>리액트활용 사이트와 동일한 컨셉을 Next.js을 활용하여 구현하였습니다. Next.js는 React를 기반으로 한 JavaScript 프레임워크로, 서버 사이드 렌더링(SSR)과 정적 사이트 생성(SSG)을 지원하여 웹 애플리케이션의 개발과 성능을 향상시키는 데 도움을 줍니다.(준비중 입니다.)</p>
+                        <div class="btn">
+                            <a href="#">code</a>
+                            <a href="#">view</a>
+                        </div>
+                    </div>
+                    <div class="right"></div>
+                </div>
+                <div class="site7">
+                    <div class="left">
+                        <h3>Youtube API Site</h3>
+                        <p>react로 youtube API를 활용해 제작한 유튜브 API 입니다. useState와 useEffect, useParams를 사용하여 유튜브 API 데이터와 서치 기능을 구현하였습니다.</p>
+                        <div class="btn">
+                            <a href="https://github.com/lee3ll/site-youtube01">code</a>
+                            <a href="https://site-youtube01.netlify.app">view</a>
+                        </div>
+                    </div>
+                    <div class="right"></div>
+                </div>
+                <div class="site8">
+                    <div class="left">
+                        <h3>Clone Site</h3>
+                        <p>웹디자인 기능사실기와 디자인연습을 위해 하나금융 메인 사이트를 참고하여 클론 사이트를 제작하였습니다.</p>
+                        <div class="btn">
+                            <a href="#">code</a>
+                            <a href="#">view</a>
+                        </div>
+                    </div>
+                    <div class="right"></div>
+                </div>
+            </div>
+        </div>
+        <!-- //section3 -->
+        <section id="section4" data-bgcolor="#fff">
+            <div class="script-title">
+                <h2>script <em>coding</em></h2>
+                <div class="desc">
+                    호환성: 웹표준을 준수하는 웹페이지는 다양한 웹 브라우저와 기기에서 일관된 방식으로 표시됩니다.<br>
+                    이는 웹사이트가 모든 사용자에게 동일한 경험을 제공하고, 웹 브라우저와 기기의 종속성을 최소화합니다.<br>
+                    접근성: 웹표준은 웹페이지가 장애인 및 저시력 사용자 등 <br>
+                    다양한 사용자 그룹에게 접근 가능하도록 지원합니다. 
+                </div>
+            </div>
+            <div class="script-wrap">
+                <div class="script1">
+                    <div class="img">
+                        <img src="/assets/Mockup06-08be140e.png" alt="">
+                    </div>
+                    <div class="info">
+                        <h3>SliderEffect</h3>
+                        <p>슬라이드효과는 사이트제작에 활용도가 높은 효과로 자바스크립트와 제이쿼리를 이용하여 Slider효과를 구현하였습니다. 좌우이동 및 상하이동, 무한이동과 나타나기효과, 메뉴바이동, 이미지 하단의 닷메뉴등을 구현하였습니다.</p>
+                        <div class="btn">
+                            <a href="https://github.com/lee3ll/web2023/blob/main/javascript/slider/sliderEffect01.html">code</a>
+                            <a href="https://lee3ll.github.io/web2023/javascript/slider/sliderEffect01.html">view</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="script2">
+                    <div class="img">
+                        <img src="/assets/Mockup07-27dd09f9.png" alt="">
+                    </div>
+                    <div class="info">
+                        <h3>ParallaxEffect</h3>
+                        <p>자바스크립트와 gsap를 활용하여 Parallax효과를 구현하였습니다. Scrolltop값을 이용해 위치값을 구하고 gsap의 ScrollTrigger으로 다양한 애니메이션효과를 주었습니다.</p>
+                        <div class="btn">
+                            <a href="https://github.com/lee3ll/web2023/blob/main/parallax/gsapparallax01.html">code</a>
+                            <a href="https://lee3ll.github.io/web2023/parallax/parallaxEffect01.html">view</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="script3">
+                    <div class="img">
+                        <img src="/assets/Mockup08-82a6611e.png" alt="">
+                    </div>
+                    <div class="info">
+                        <h3>MouseEffect</h3>
+                        <p>마우스가 특정 위치해 있을때 나타나는 효과는 사이트 방문 시 쉽게 볼 수 있습니다. 그와같은 마우스오버 효과를 자바스크립트와 gsap를 활용하여 구현하였습니다.ㄴㄴ</p>
+                        <div class="btn">
+                            <a href="https://github.com/lee3ll/web2023">code</a>
+                            <a href="https://lee3ll.github.io/web2023/javascript/mouse/mouseEffect01.html">view</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+        <!-- //section4 -->
+
+
+        <!-- <div id="section4">
+            <div class="text">
+                <h2>Tenacious<br>
+                    <span>and</span><br>
+                    Live</h2>
+            </div>            
+        </div> -->
+        <!-- section4 -->
+        <!-- <section id="section5" data-bgcolor="#fff">
+            <h1>SCRIPT <br><span>CODING</span></h1>
+            <div id="container">
+                <div class="coding_box1">
+                    <h3 class="h3-1"><em>Slider Effect</em><br>javascript & jquery를 사용하여 좌, 우, fade, 썸네일 방식의<br> 화면전환효과를 만들었습니다.</h3>
+                </div>         
+                <div class="coding_box2">
+                    <h3 class="h3-2"><em>Mouse Effect</em><br>마우스를 활용한 스크립트 예제를 만들었습니다.<br>마우스를 움직이면 글씨가 마우스의 방향으로 이동되면서<br> 반전되는 효과를 보여줍니다.</h3>
+                </div>
+                
+                <div class="coding_box3">
+                    <h3 class="h3-3"><em>Parallax Effect</em><br>avaScript와 gsap로 offset값을 이용하여<br>여러가지 패럴렉스 효과를 구현했습니다.</h3>
+                </div>          
+                <div class="coding_box4">
+                    <h3 class="h3-4">항공기계설계를 전공으로 공부하였고, 다양한 분야의 업무를 하며 나의 적성에<br> 맞는 일을 찾고자 노력을 했습니다. 다니던 대학원을<br> 
+                        휴학하고 국비지원학원에서 약 6개월간의 여정을 시작했습니다.</h3>
+                </div>        
+            </div>    
+        </section> -->
+        <!-- section5 -->
+        
+        <div id="section6">
+            <div id="effect_wrap">
+                <div class="quiz">
+                    <h1><em>QUIZ</em><br>effect</h1>
+                    <a href="https://lee3ll.github.io/web2023/javascript/quiz/quizEffect07.html" class="view">View</a>
+                    <a href="https://github.com/lee3ll/web2023/blob/main/javascript/javascript07.html" class="code">Code</a>
+                </div>
+                <div class="game">
+                    <h1><em>GAME</em><br>effect</h1>
+                    <a href="https://lee-game.web.app/" class="view">View</a>
+                    <a href="https://github.com/lee3ll/web2023/blob/main/javascript/game/gameEffect01.htmlccd" class="code">Code</a>
+                </div>
+            </div>            
+        </div>
+        <!-- section6 -->
+
+        <div id="section7">
+            <h1><em>THE</em><br>GAZETTE</h1>
+            <p>
+                퍼블리싱은 UI 디자인, 사용자를 위한 설계, 개발자의 지식과 추구하고자 하는 목표가<br> 함축적으로 담겨있는 예술 직업입니다.<br> 사용자들이 만족감을 느낄 수 있도록 웹 표준과 웹 접근성에 준수한 좋은 코드를 작성하기 위해 노력할 것입니다.
+            </p>
+            <div id="photo">
+                <div class="photo_box1 hovered">
+                    <div class="photo_card">
+                        <h2>TENACIOUS<br>
+                            AND<br>
+                            LIVE</h2>
+                    </div>
+                    
+                </div>
+                <div class="photo_box2 hovered">
+                    <div class="photo_card">
+                        <h2>
+                            DELIBERATE<br>
+                            CONSCIUS
+                        </h2>
+                    </div>
+                </div>
+                <div class="photo_box3 hovered">
+                    <div class="photo_card">
+                        <h2>
+                            PASSIONATE<br>
+                            AND<br>
+                            LOVE
+                        </h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- section7 -->
+
+        <div id="section8">
+            <h1>VISIT <em>MY SITE</em><br><em>&</em><br>CONTACT <em>ME</em></h1>
+            <div class="contact">
+                <div class="git">
+                    <h2>github</h2>
+                </div>
+                <div class="e-mail">
+                    <h2>g-mail</h2>
+                </div>
+                <div class="insta">
+                    <h2>instagram</h2>
+                </div>
+            </div>
+        </div>
+        <!-- section8 -->
+
+        <div id="section9"></div>
     </main>  
     
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.1/ScrollToPlugin.min.js"></script>
+    
+    <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1/bundled/lenis.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r120/three.min.js"></script>
+    
+     <!-- <script src="./script/script.js"></script> -->
     <script>
+
+// 별
     //화면 생성
     let scene = new THREE.Scene();
     scene.fog = new THREE.FogExp2('#222', 0.001);
@@ -74,9 +354,10 @@
     // document.body.appendChild(renderer.domElement);
 
     //파티클 설정
+    
     let material = new THREE.PointsMaterial({
         color: 0xffffff,
-        size: 1.5,
+        size: 1.1,
         transparent: true,
         blending: THREE.AdditiveBlending  
     });
@@ -131,8 +412,6 @@
         renderer.setSize(window.innerWidth, window.innerHeight);
     }
     window.addEventListener('resize', onWindowResize);
-    </script>
-  
-  
+     </script>
   </body>  
 </html>

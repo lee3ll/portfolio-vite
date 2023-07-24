@@ -1,0 +1,459 @@
+/* section3 */
+
+#section3 {
+  width: 100%;
+  height: 100%;
+  z-index: 3000;
+  position: relative;
+  // background-color: #041F1E;
+  padding-bottom: 150px;
+
+  &::before {
+    content: "";
+    width: 100%;
+    height: inherit;
+    position: absolute;
+    z-index: -1;
+    background-image: url(../img/bg03.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    opacity: 0;
+    transition: opacity 1.4s;
+  }
+
+  &.active::before {
+    opacity: 1;
+  }
+
+  h2 {
+    color: #fff;
+    font-family: "PP Hatton";
+    text-align: left;
+    padding: 15vw 0 0 5vw;
+    font-size: 10vw;
+    line-height: 1;
+    font-weight: 200;
+    text-transform: uppercase;
+    margin-bottom: 1.6vw;
+
+    em {
+      font-weight: 500;
+      display: block;
+    }
+  }
+
+  .desc {
+    padding-left: 5vw;
+    width: 90%;
+    color: #fff;
+    font-family: "IropkeBatang";
+    line-height: 1.5;
+  }
+
+  .btn a {
+    background-color: #0f490f;
+    padding: 1.05vh 2.15vw;
+    color: #fff;
+    display: inline-block;
+    margin-top: 10vh;
+    border-radius: 50px;
+    text-transform: uppercase;
+    margin-right: 0.6vw;
+    z-index: 10;
+
+    &:hover {
+      background-color: #4b7555;
+      transition: all 0.5s;
+    }
+  }
+}
+
+.site-wrap {
+  padding: 5%;
+
+  .site1 {
+    background-color: #fff;
+    height: 480px;
+    margin-right: 20%;
+    border-radius: 20px;
+    display: flex;
+
+    .left {
+      width: 60%;
+      padding: 5%;
+      position: relative;
+      overflow: hidden;
+
+      &::after {
+        content: "01";
+        position: absolute;
+        right: -4vw;
+        bottom: -6vw;
+        font-size: 26vw;
+        line-height: 1;
+        color: #0f490f08;
+        font-weight: 900;
+        font-family: "Poppins";
+      }
+
+      h3 {
+        font-size: 4.5vw;
+        font-family: "PP Hatton";
+        color: #0f490f;
+        font-weight: 900;
+      }
+
+      p {
+        font-family: "IropkeBatang";
+        font-size: 16px;
+        line-height: 1.6;
+      }
+    }
+
+    .right {
+      width: 40%;
+      background-image: url(../img/site01.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      border-radius: 0 20px 20px 0;
+    }
+  }
+  .site2 {
+    background-color: #fff;
+    height: 480px;
+    margin-left: 20%;
+    margin-top: 150px;
+    border-radius: 20px;
+    display: flex;
+
+    .left {
+      width: 60%;
+      padding: 5%;
+      position: relative;
+      overflow: hidden;
+
+      &::after {
+        content: "02";
+        position: absolute;
+        right: -4vw;
+        bottom: -6vw;
+        font-size: 26vw;
+        line-height: 1;
+        color: #0f490f08;
+        font-weight: 900;
+        font-family: "Poppins";
+      }
+
+      h3 {
+        font-size: 4.5vw;
+        font-family: "PP Hatton";
+        color: #0f490f;
+        font-weight: 900;
+      }
+
+      p {
+        font-family: "IropkeBatang";
+        font-size: 16px;
+        line-height: 1.6;
+      }
+    }
+
+    .right {
+      width: 40%;
+      background-image: url(../img/site02.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      border-radius: 0 20px 20px 0;
+    }
+  }
+  .site3 {
+    background-color: #fff;
+    height: 480px;
+    margin-right: 20%;
+    margin-top: 150px;
+    border-radius: 20px;
+    display: flex;
+
+    .left {
+      width: 60%;
+      padding: 5%;
+      position: relative;
+      overflow: hidden;
+
+      &::after {
+        content: "03";
+        position: absolute;
+        right: -4vw;
+        bottom: -6vw;
+        font-size: 26vw;
+        line-height: 1;
+        color: #0f490f08;
+        font-weight: 900;
+        font-family: "Poppins";
+      }
+
+      h3 {
+        font-size: 4.25vw;
+        font-family: "PP Hatton";
+        color: #0f490f;
+        font-weight: 900;
+      }
+
+      p {
+        font-family: "IropkeBatang";
+        font-size: 16px;
+        line-height: 1.6;
+      }
+    }
+
+    .right {
+      width: 40%;
+      background-image: url(../img/site03.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      border-radius: 0 20px 20px 0;
+    }
+  }
+  .site4 {
+    background-color: #fff;
+    height: 480px;
+    margin-left: 20%;
+    margin-top: 150px;
+    border-radius: 20px;
+    display: flex;
+
+    .left {
+      width: 60%;
+      padding: 5%;
+      position: relative;
+      overflow: hidden;
+
+      &::after {
+        content: "04";
+        position: absolute;
+        right: -4vw;
+        bottom: -6vw;
+        font-size: 26vw;
+        line-height: 1;
+        color: #0f490f08;
+        font-weight: 900;
+        font-family: "Poppins";
+      }
+
+      h3 {
+        font-size: 4.5vw;
+        font-family: "PP Hatton";
+        color: #0f490f;
+        font-weight: 900;
+      }
+
+      p {
+        font-family: "IropkeBatang";
+        font-size: 16px;
+        line-height: 1.6;
+      }
+    }
+
+    .right {
+      width: 40%;
+      background-image: url(../img/site05.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      border-radius: 0 20px 20px 0;
+    }
+  }
+
+  .site5 {
+    background-color: #fff;
+    height: 480px;
+    margin-right: 20%;
+    margin-top: 150px;
+    border-radius: 20px;
+    display: flex;
+
+    .left {
+      width: 60%;
+      padding: 5%;
+      position: relative;
+      overflow: hidden;
+
+      &::after {
+        content: "05";
+        position: absolute;
+        right: -4vw;
+        bottom: -6vw;
+        font-size: 26vw;
+        line-height: 1;
+        color: #0f490f08;
+        font-weight: 900;
+        font-family: "Poppins";
+      }
+
+      h3 {
+        font-size: 4.5vw;
+        font-family: "PP Hatton";
+        color: #0f490f;
+        font-weight: 900;
+      }
+
+      p {
+        font-family: "IropkeBatang";
+        font-size: 16px;
+        line-height: 1.6;
+      }
+    }
+
+    .right {
+      width: 40%;
+      background-image: url(https://ohserin.github.io/webs_class/webs_class/portfolio/img/site1.jpg);
+      background-size: cover;
+      border-radius: 0 20px 20px 0;
+    }
+  }
+  .site6 {
+    background-color: #fff;
+    height: 480px;
+    margin-left: 20%;
+    margin-top: 150px;
+    border-radius: 20px;
+    display: flex;
+
+    .left {
+      width: 60%;
+      padding: 5%;
+      position: relative;
+      overflow: hidden;
+
+      &::after {
+        content: "06";
+        position: absolute;
+        right: -4vw;
+        bottom: -6vw;
+        font-size: 26vw;
+        line-height: 1;
+        color: #0f490f08;
+        font-weight: 900;
+        font-family: "Poppins";
+      }
+
+      h3 {
+        font-size: 4.5vw;
+        font-family: "PP Hatton";
+        color: #0f490f;
+        font-weight: 900;
+      }
+
+      p {
+        font-family: "IropkeBatang";
+        font-size: 16px;
+        line-height: 1.6;
+      }
+    }
+
+    .right {
+      width: 40%;
+      background-image: url(https://ohserin.github.io/webs_class/webs_class/portfolio/img/site1.jpg);
+      background-size: cover;
+      border-radius: 0 20px 20px 0;
+    }
+  }
+  .site7 {
+    background-color: #fff;
+    height: 480px;
+    margin-right: 20%;
+    margin-top: 150px;
+    border-radius: 20px;
+    display: flex;
+
+    .left {
+      width: 60%;
+      padding: 5%;
+      position: relative;
+      overflow: hidden;
+
+      &::after {
+        content: "07";
+        position: absolute;
+        right: -4vw;
+        bottom: -6vw;
+        font-size: 26vw;
+        line-height: 1;
+        color: #0f490f08;
+        font-weight: 900;
+        font-family: "Poppins";
+      }
+
+      h3 {
+        font-size: 3.8vw;
+        font-family: "PP Hatton";
+        color: #0f490f;
+        font-weight: 900;
+      }
+
+      p {
+        font-family: "IropkeBatang";
+        font-size: 16px;
+        line-height: 1.6;
+      }
+    }
+
+    .right {
+      width: 40%;
+      background-image: url(https://ohserin.github.io/webs_class/webs_class/portfolio/img/site1.jpg);
+      background-size: cover;
+      border-radius: 0 20px 20px 0;
+    }
+  }
+
+  .site8 {
+    background-color: #fff;
+    height: 480px;
+    margin-left: 20%;
+    margin-top: 150px;
+    border-radius: 20px;
+    display: flex;
+
+    .left {
+      width: 60%;
+      padding: 5%;
+      position: relative;
+      overflow: hidden;
+
+      &::after {
+        content: "08";
+        position: absolute;
+        right: -4vw;
+        bottom: -6vw;
+        font-size: 26vw;
+        line-height: 1;
+        color: #0f490f08;
+        font-weight: 900;
+        font-family: "Poppins";
+      }
+
+      h3 {
+        font-size: 4.5vw;
+        font-family: "PP Hatton";
+        color: #0f490f;
+        font-weight: 900;
+      }
+
+      p {
+        font-family: "IropkeBatang";
+        font-size: 16px;
+        line-height: 1.6;
+      }
+    }
+
+    .right {
+      width: 40%;
+      background-image: url(https://ohserin.github.io/webs_class/webs_class/portfolio/img/site1.jpg);
+      background-size: cover;
+      border-radius: 0 20px 20px 0;
+    }
+  }
+}

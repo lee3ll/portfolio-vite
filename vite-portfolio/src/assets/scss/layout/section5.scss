@@ -1,0 +1,137 @@
+#section5 {
+  width: 100%;
+  height: 320vh;
+  // background-color: #fff;
+  margin: 100px 0;
+
+  h1 {
+    padding: 100px 0 40px;
+    font-size: 7vw;
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: center;
+    font-family: "PP Hatton";
+    color: #264626;
+    span {
+      font-weight: 200;
+    }
+  }
+  p {
+    font-family: "ChosunNm";
+    text-align: center;
+    font-size: 17px;
+  }
+  #container {
+    font-family: "ChosunNm";
+    .coding_box1 {
+      position: relative;
+      margin: 10px 40px 0 50%;
+      width: 30vw;
+      height: 40vw;
+      background-color: #e2f0c8;
+      border-radius: 30px;
+      background-image: url(../img/Mockup06.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+    .h3-1 {
+      position: absolute;
+      display: inline-block;
+      top: 8%;
+      //   bottom: 10%;
+      right: -280px;
+      color: #000;
+      font-size: 0.85vw;
+      line-height: 1.5;
+
+      em {
+        font-family: "PP Hatton";
+        text-decoration: underline;
+        text-underline-position: under;
+        font-weight: 500;
+        color: #264626;
+      }
+    }
+
+    .coding_box2 {
+      margin: -260px 40px 0 25%;
+      width: 30vw;
+      height: 40vw;
+      background-color: #4f5347;
+      border-radius: 30px;
+      background-image: url(../img/Mockup10.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      position: relative;
+    }
+    .h3-2 {
+      position: absolute;
+      display: inline-block;
+      bottom: 10%;
+      left: -250px;
+      color: #000;
+      font-size: 0.85vw;
+      line-height: 1.5;
+
+      em {
+        font-family: "PP Hatton";
+        text-decoration: underline;
+        text-underline-position: under;
+        font-weight: 500;
+        color: #264626;
+      }
+    }
+    .coding_box3 {
+      margin: -250px 40px 0 50%;
+      width: 30vw;
+      height: 40vw;
+      background-color: #cae09f;
+      border-radius: 30px;
+      background-image: url(../img/Mockup09.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      position: relative;
+    }
+    .h3-3 {
+      position: absolute;
+      display: inline-block;
+      bottom: 15%;
+      right: -200px;
+      color: #000;
+      font-size: 0.85vw;
+      line-height: 1.5;
+
+      em {
+        font-family: "PP Hatton";
+        text-decoration: underline;
+        text-underline-position: under;
+        font-weight: 500;
+        color: #264626;
+      }
+    }
+
+    .coding_box4 {
+      margin: -200px 40px 0 25%;
+      width: 30vw;
+      height: 40vw;
+      background-color: #95b94d;
+      border-radius: 30px;
+      background-image: url(../img/Mockup11.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      position: relative;
+    }
+    .h3-4 {
+      position: absolute;
+      display: inline-block;
+      bottom: 15%;
+      left: -250px;
+      color: #000;
+      font-size: 15px;
+    }
+  }
+}

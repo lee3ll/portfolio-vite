@@ -1,0 +1,99 @@
+#section8 {
+  width: 100%;
+  height: 100vh;
+  background-color: #ce7373;
+  background-image: url(../img/bg04.png);
+
+  h1 {
+    font-size: 5vw;
+    font-family: "PP Hatton";
+    color: #fff;
+    font-weight: 200;
+    padding: 80px;
+
+    em {
+      font-weight: 500;
+    }
+  }
+
+  .contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    h2 {
+      font-family: "PP Hatton";
+      align-items: center;
+      margin-left: 10vw;
+      margin-top: 5vh;
+    }
+
+    > div {
+      margin-left: 80px;
+      width: 24vw;
+      height: 20vh;
+      border-radius: 100px;
+      background-color: #fff;
+      justify-content: space-between;
+    }
+
+    .git {
+      position: relative;
+      h2 {
+        font-size: 2.5vw;
+      }
+
+      &::before {
+        width: 5vw;
+        height: 11vh;
+        content: "";
+        position: absolute;
+        background-image: url(../img/git.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        top: 4.5vh;
+        left: 3vw;
+      }
+    }
+    .e-mail {
+      position: relative;
+      h2 {
+        font-size: 2.5vw;
+      }
+
+      &::before {
+        width: 5vw;
+        height: 9vh;
+        content: "";
+        position: absolute;
+        background-image: url(../img/email.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        top: 5vh;
+        left: 3vw;
+      }
+    }
+    .insta {
+      position: relative;
+      h2 {
+        margin-left: 3vw;
+        font-size: 2.5vw;
+      }
+
+      &::before {
+        width: 5vw;
+        height: 9vh;
+        content: "";
+        position: absolute;
+        background-image: url(../img/insta.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        top: 5vh;
+        left: 3vw;
+      }
+    }
+  }
+}
